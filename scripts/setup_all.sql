@@ -1,0 +1,9 @@
+SOURCE /docker-entrypoint-initdb.d/scripts/01_create_database.sql;
+SOURCE /docker-entrypoint-initdb.d/scripts/02_users_table.sql;
+SOURCE /docker-entrypoint-initdb.d/scripts/03_products_table.sql;
+SOURCE /docker-entrypoint-initdb.d/scripts/04_orders_table.sql;
+SOURCE /docker-entrypoint-initdb.d/scripts/05_order_details_table.sql;
+SOURCE /docker-entrypoint-initdb.d/scripts/06_paypal_logs_table.sql;
+SOURCE /docker-entrypoint-initdb.d/scripts/10_transacciones_table.sql;
+SOURCE /docker-entrypoint-initdb.d/scripts/07_insert_admin.sql;
+SOURCE /docker-entrypoint-initdb.d/scripts/08_insert_products.sql;
